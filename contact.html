@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact | Juan Dela Cruz</title>
+  <meta name="description" content="Contact Juan Dela Cruz.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=Figtree:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ===== HEADER / NAVIGATION (same on every page) ===== -->
+  <header class="site-header">
+    <a class="logo" href="index.html">JDC</a>
+    <nav class="nav" aria-label="Main">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="projects.html">Projects</a>
+      <a href="contact.html" aria-current="page">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <div class="page-title">
+      <h1>Contact</h1>
+      <p>Have a question or want to collaborate? Send me a message.</p>
+    </div>
+
+    <section class="section">
+      <div class="contact-grid">
+        <ul class="contact-list">
+          <li><strong>Email</strong> <a href="mailto:juan.delacruz@email.com">juan.delacruz@email.com</a></li>
+          <li><strong>GitHub</strong> <a href="https://github.com/" target="_blank" rel="noopener">github.com/juandelacruz</a></li>
+          <li><strong>Location</strong> Biñan, Laguna, Philippines</li>
+        </ul>
+
+        <!-- Opens the visitor's email app (no server needed) -->
+        <form class="form" action="mailto:juan.delacruz@email.com" method="post" enctype="text/plain">
+          <label>Name <input type="text" name="name" required></label>
+          <label>Email <input type="email" name="email" required></label>
+          <label>Message <textarea name="message" rows="5" required></textarea></label>
+          <button class="btn btn-primary" type="submit">Send message</button>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; 2026 Juan Dela Cruz. Made for BSIT 1B.</p>
+    <a href="index.html">Back to home</a>
+  </footer>
+
+</body>
+</html>
