@@ -180,7 +180,7 @@ a:focus-visible, .btn:focus-visible, .form input:focus-visible, .form textarea:f
   box-shadow: 0 12px 30px rgba(50, 31, 13, .12);
 }
 .page-title h1 { font-size: clamp(2.4rem, 7vw, 4rem); font-weight: 800; margin-bottom: 8px; }
-.page-title p { color: var(--muted); font-size: 1.15rem; max-width: 50ch; }
+.page-title p { color: #bf875d; font-size: 1.15rem; max-width: 50ch; }
 .link-cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 24px; }
 .link-card {
   display: block; padding: 24px; text-decoration: none; color: var(--ink);
