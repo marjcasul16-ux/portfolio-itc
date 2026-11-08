@@ -78,7 +78,7 @@ a:focus-visible, .btn:focus-visible, .form input:focus-visible, .form textarea:f
 .btn:hover { transform: translateY(-2px); box-shadow: 0 6px 14px rgba(50, 31, 13, .18); }
 .btn-primary { background: var(--primary); border-color: var(--primary); color: #fff9df; }
 .btn-primary:hover { background: #754a1a; border-color: #754a1a; }
-.btn-outline { color: var(--primary); }
+.btn-outline { color: #fff9df; }
 .btn-outline:hover { background: var(--accent); border-color: #d39a2e; }
 .hero-photo {
   aspect-ratio: 1; width: 100%; max-width: 340px; justify-self: center;
