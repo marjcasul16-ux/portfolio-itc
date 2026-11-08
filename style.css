@@ -7,12 +7,12 @@
 /* ---------- 1. VARIABLES (change colors/fonts here) ---------- */
 :root {
   --bg: linear-gradient(130deg, #5a0006, #920004, #d92200, #f3500a, #f37100);          /* page background */
-  --bg-tint: #e3ecea;     /* alternate section background */
-  --ink: #12302f;         /* main text */
-  --muted: #4d6967;       /* secondary text */
-  --primary: #0b6e6a;     /* teal: buttons, bars */
-  --accent: #f2a900;      /* marigold: highlights */
-  --card: #ffffff;
+  --bg-tint: #fff0e6;     /* warm alternate section background */
+  --ink: #35110f;         /* deep burgundy main text */
+  --muted: #70443d;       /* warm secondary text */
+  --primary: #8f250e;     /* rust red: buttons, bars */
+  --accent: #ffc857;      /* golden highlight */
+  --card: #fffaf5;
   --radius: 14px;
   --font-head: "Bricolage Grotesque", "Segoe UI", sans-serif;
   --font-body: "Figtree", "Segoe UI", Arial, sans-serif;
