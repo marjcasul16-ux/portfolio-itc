@@ -113,6 +113,7 @@ a:focus-visible, .btn:focus-visible, .form input:focus-visible, .form textarea:f
 /* ---------- 6. SKILLS ---------- */
 .skills-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 22px 40px; }
 .skill h3 { font-size: 1.1rem; margin-bottom: 8px; }
+.skill h3 span { color: #fee6c4 } 
 .bar { height: 14px; background: #fffdf2; border: 2px solid var(--primary); border-radius: 999px; overflow: hidden; }
 .bar span { display: block; height: 100%; background: linear-gradient(90deg, #8b5d20, #d39a2e, #f0bf3f); }
 
