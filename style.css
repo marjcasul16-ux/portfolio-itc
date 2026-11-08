@@ -12,8 +12,8 @@
   --muted: #654923;
   --primary: #583714;
   --accent: #ffcf4a;
-  --card: linear-gradient(130deg, #583714 0%, #ffeb97 38%, #ffeb97 62%, #583714 100%);
-  --surface: #e1b797;
+  --card: #ffeb97;
+  --surface: #ffeb97;
   --radius: 16px;
   --font-head: "Bricolage Grotesque", "Segoe UI", sans-serif;
   --font-body: "Figtree", "Segoe UI", Arial, sans-serif;
@@ -92,12 +92,12 @@ a:focus-visible, .btn:focus-visible, .form input:focus-visible, .form textarea:f
 /* ---------- 5. SECTIONS ---------- */
 .section {
   max-width: 1150px; padding: 72px 6vw; margin: 30px auto;
-  background: #e1b797;
+  background: var(--surface);
   border: 1px solid rgba(88, 55, 20, .2);
-  border-radius: 24px;
+  border-radius: 28px;
   box-shadow: 0 12px 30px rgba(50, 31, 13, .12);
 }
-.section-tint { background: #e1b797; }
+.section-tint { background: var(--surface); }
 .section > * { max-width: 1050px; margin-left: auto; margin-right: auto; }
 .section h2 { font-size: clamp(2rem, 5vw, 3rem); margin-bottom: 28px; color: var(--ink); }
 .about-grid { display: grid; grid-template-columns: 1.3fr 1fr; gap: 40px; }
@@ -175,7 +175,7 @@ a:focus-visible, .btn:focus-visible, .form input:focus-visible, .form textarea:f
 }
 .page-title {
   padding: 48px 6vw 28px; max-width: 1150px; margin: 32px auto 18px;
-  background: var(--surface); border-radius: 24px;
+  background: var(--surface); border-radius: 28px;
   border: 1px solid rgba(88, 55, 20, .2);
   box-shadow: 0 12px 30px rgba(50, 31, 13, .12);
 }
@@ -184,12 +184,12 @@ a:focus-visible, .btn:focus-visible, .form input:focus-visible, .form textarea:f
 .link-cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 24px; }
 .link-card {
   display: block; padding: 24px; text-decoration: none; color: var(--ink);
-  background: rgba(255, 249, 223, .94); border: 1px solid rgba(88, 55, 20, .24);
+  background: var(--card); border: 1px solid rgba(88, 55, 20, .24);
   border-radius: var(--radius); box-shadow: 0 8px 24px rgba(50, 31, 13, .12);
   transition: transform .2s, box-shadow .2s, background .2s;
 }
 .link-card:hover {
-  transform: translateY(-4px); background: #fffdf2;
+  transform: translateY(-4px); background: #fff4c7;
   box-shadow: 0 14px 30px rgba(50, 31, 13, .2);
 }
 .link-card h3 { margin-bottom: 6px; color: #79511b; }
