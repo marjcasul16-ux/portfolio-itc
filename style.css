@@ -9,7 +9,7 @@
   --bg: linear-gradient(130deg, #5a0006, #920004, #d92200, #f3500a, #f37100);          /* page background */
   --bg-tint: #fff0e6;     /* warm alternate section background */
   --ink: #35110f;         /* deep burgundy main text */
-  --muted: #70443d;       /* warm secondary text */
+  --muted: #FFFADA;       /* warm secondary text */
   --primary: #8f250e;     /* rust red: buttons, bars */
   --accent: #ffc857;      /* golden highlight */
   --card: #fffaf5;
