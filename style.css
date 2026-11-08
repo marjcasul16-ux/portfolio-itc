@@ -101,7 +101,7 @@ a:focus-visible, .btn:focus-visible, .form input:focus-visible, .form textarea:f
 .section > * { max-width: 1050px; margin-left: auto; margin-right: auto; }
 .section h2 { font-size: clamp(2rem, 5vw, 3rem); margin-bottom: 28px; color: var(--ink); }
 .about-grid { display: grid; grid-template-columns: 1.3fr 1fr; gap: 40px; }
-.about-grid p { max-width: 60ch; font-size: 1.1rem; color: #a8704e  }
+.about-grid p { max-width: 60ch; font-size: 1.1rem; color: #161616  }
 .facts {
   list-style: none; background:#fff4c7; border: 2px solid var(--primary);
   border-radius: var(--radius); padding: 22px; box-shadow: 0 8px 22px rgba(50, 31, 13, .08);
