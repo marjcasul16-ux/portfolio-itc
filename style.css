@@ -103,7 +103,7 @@ a:focus-visible, .btn:focus-visible, .form input:focus-visible, .form textarea:f
 .about-grid { display: grid; grid-template-columns: 1.3fr 1fr; gap: 40px; }
 .about-grid p { max-width: 60ch; font-size: 1.1rem; }
 .facts {
-  list-style: none; background: var(--card); border: 2px solid var(--primary);
+  list-style: none; background:#fff4c7; border: 2px solid var(--primary);
   border-radius: var(--radius); padding: 22px; box-shadow: 0 8px 22px rgba(50, 31, 13, .08);
 }
 .facts li { padding: 8px 0; border-bottom: 1px solid #eadca9; }
