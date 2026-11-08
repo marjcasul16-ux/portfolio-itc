@@ -12,8 +12,8 @@
   --muted: #654923;
   --primary: #583714;
   --accent: #ffcf4a;
-  --card: #ffeb97;
-  --surface: #ffeb97;
+  --card: linear-gradient(130deg, #ffeb97 0%, #583714 38%, #583714 62%, #ffeb97 100%);
+  --surface: linear-gradient(130deg, #ffeb97 0%, #583714 38%, #583714 62%, #ffeb97 100%);
   --radius: 16px;
   --font-head: "Bricolage Grotesque", "Segoe UI", sans-serif;
   --font-body: "Figtree", "Segoe UI", Arial, sans-serif;
