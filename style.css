@@ -12,7 +12,7 @@
   --muted: #654923;
   --primary: #583714;
   --accent: #ffcf4a;
-  --card: #fff9df;
+  --card: linear-gradient(130deg, #583714 0%, #ffeb97 38%, #ffeb97 62%, #583714 100%);
   --surface: rgba(255, 249, 223, .96);
   --radius: 16px;
   --font-head: "Bricolage Grotesque", "Segoe UI", sans-serif;
