@@ -6,7 +6,7 @@
 
 /* ---------- 1. VARIABLES (change colors/fonts here) ---------- */
 :root {
-  --bg: #3D0000;          /* page background */
+  --bg: radial-gradient(130deg, #5a0006, #920004, #d92200, #f3500a, #f37100);          /* page background */
   --bg-tint: #e3ecea;     /* alternate section background */
   --ink: #12302f;         /* main text */
   --muted: #4d6967;       /* secondary text */
