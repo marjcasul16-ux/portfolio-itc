@@ -136,9 +136,6 @@ a:focus-visible, .btn:focus-visible, .form input:focus-visible, .form textarea:f
   overflow: hidden; padding-bottom: 22px; box-shadow: 0 10px 26px rgba(50, 31, 13, .1);
   transition: transform .2s, box-shadow .2s;
 }
-.project h3,
-.project p {
-    background-color: #E6DAC8; }
 .project:hover { transform: translateY(-4px); box-shadow: 0 16px 32px rgba(50, 31, 13, .16); }
 .project-thumb {
   height: 160px; display: grid; place-items: center; font-family: var(--font-head);
