@@ -197,7 +197,7 @@ a:focus-visible, .btn:focus-visible, .form input:focus-visible, .form textarea:f
 .link-card p { color: var(--muted); }
 .contact-grid { display: grid; grid-template-columns: 1fr 1.2fr; gap: 40px; }
 .form { display: grid; gap: 16px; }
-.form label { font-weight: 700; display: grid; gap: 6px; color: #E6DAC8; }
+.form label { font-weight: 700; display: grid; gap: 6px; color: #F4F1EA; }
 .form input, .form textarea {
   width: 100%; font: inherit; padding: 12px; color: var(--ink);
   background: #fffdf2; border: 2px solid #8a622c; border-radius: 10px;
